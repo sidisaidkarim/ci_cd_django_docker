@@ -2,7 +2,7 @@ name: Test, Build and Deploy to aws
 on:
   push:
     branches:
-      - dev
+      - prod
 
 jobs:
   execute_tests:
