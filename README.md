@@ -4,3 +4,4 @@ a simple ci/cd pipeline with github actions for testing and deploying a dockeriz
 composed of one single job and 2 steps
 - step one for executing tests
 - step two: checkout code in the server, build container and start docker containers
+P.S : if test step fail, deployment will not be executed 
